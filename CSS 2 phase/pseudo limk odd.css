@@ -1,0 +1,9 @@
+.pseudo-odd p:nth-of-type(2n+1){
+    background-color: seagreen;
+    color: red;
+}
+
+.pseudo-even p:nth-of-type(2n+2){
+    background-color: yellow;
+    color: green;
+}

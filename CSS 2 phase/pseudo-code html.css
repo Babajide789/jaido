@@ -1,0 +1,11 @@
+.pseudo p:first-child{
+    background-color: blue;
+    color: white;
+}
+.pseudo p:last-child{
+    background-color: black;
+    color: white;
+}
+.pseudo p:nth-child(6){
+    background-color: red;
+}

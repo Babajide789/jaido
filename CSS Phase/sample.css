@@ -1,0 +1,21 @@
+#home-section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: green;
+}
+
+#about-section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blue;
+}
+
+#service-section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+}
+.jide{
+    color: lawngreen;
+    border: 5px solid blue;
+}

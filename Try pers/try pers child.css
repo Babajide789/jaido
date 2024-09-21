@@ -1,0 +1,12 @@
+#try > p{
+    background-color: pink;
+    color: brown;
+}
+
+#try > h6{
+    color: green;
+    background-color: blue;
+    padding: 10px;
+    border: 10px solid black;
+    margin-left: 5px;
+}
