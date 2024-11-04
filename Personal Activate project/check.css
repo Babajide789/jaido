@@ -1,0 +1,48 @@
+/* General footer styling */
+.main_footer {
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Align content inside footer horizontally */
+.footer_info_1 {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between the groups */
+    padding: 0 40px; /* Adjust padding for left and right */
+}
+
+/* Styling for the first content section */
+.footer_info_content_1 {
+    display: flex;
+    flex-direction: column; /* Align vertically */
+    gap: 10px;
+}
+
+/* Styling for the navigation links section */
+.footer_nav_link_content {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between each column */
+    flex-grow: 1;
+}
+
+/* Style each content list section */
+.footer_info_content_list {
+    display: flex;
+    flex-direction: column; /* Align links vertically within each column */
+    margin: 0 20px; /* Space between columns */
+}
+
+/* Styling for individual links */
+.footer_info_content_list a, 
+.footer_info_content_1 a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer_info_content_list a:hover,
+.footer_info_content_1 a:hover {
+    color: #ff9900; /* Hover effect: orange */
+}
