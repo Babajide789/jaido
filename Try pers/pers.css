@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: red;
+}
+
+p{
+    background-color: green;
+}
+
+span{
+    background-color: yellow;
+}
+
+a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+#first-image{
+    width: 200px;
+}
+
+#heading-one{
+    background-color: purple;
+}
+
+.para-one{
+    background-color: teal;
+}
